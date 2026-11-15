@@ -1,0 +1,16 @@
+# ASE trajectories and their extxyz conversions
+*.traj
+*_relax.extxyz
+
+# Python cache
+__pycache__/
+
+# MD output
+md.*
+
+# Straight end-on start (saddle point), kept locally only
+complex_relax.log
+complex_relaxed.extxyz
+
+# OVITO session files
+*.ovito
